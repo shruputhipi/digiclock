@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    display:flex; /*brings it in the center*/
+    flex-direction: column; /* arraganges it in columns*/
+    align-items: center;
+    height: 100vh; 
+    justify-content: center; 
+      background: url(bg1.avif);
+}
+h2{
+    text-transform: uppercase;
+    text-size-adjust: 4px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+
+}
+.clock span{
+    width: 100px;
+    height:80px;
+    background-color: bisque;
+}
